@@ -11,7 +11,7 @@ base_url = 'https://www.googleapis.com/youtube/v3/commentThreads?'
 params = {'part': 'snippet',
           'maxResults': 100,
           'searchTerms': 'joe,rogan',
-          'key': 'AIzaSyBDR8-u9ICh5xySaNVszmWu2LDEnRqQI3s'}
+          'key': '{YOUTUBE_API_KEY'}
 
 with open('video_ids', 'rU') as f:
     video_ids = pickle.load(f)

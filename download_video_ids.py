@@ -9,7 +9,7 @@ base_url = 'https://www.googleapis.com/youtube/v3/playlistItems?'
 params = {'part': 'snippet',
           'maxResults': 50,
           'playlistId': 'UUzQUP1qoWDoEbmsQxvdjxgQ',
-          'key': 'AIzaSyBDR8-u9ICh5xySaNVszmWu2LDEnRqQI3s'}
+          'key': '{YOUTUBE_API_KEY'}
 
 url = base_url + urllib.urlencode(params)
 next_page_token = ''
